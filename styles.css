@@ -1,0 +1,86 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(61, 121, 176) 0%, rgb(35, 66, 164) 100%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center horizontally and vertically */
+}
+
+h1 {
+    font-size: 4rem; /* Increase the size */
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+#name, #point, #addPlayerButton {
+    font-size: 2rem; /* Increase the size */
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+#addPlayerButton {
+    background-color: #3366cc;
+    border: none;
+    padding: 1rem 2rem; /* Increase the padding for the button size */
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+#addPlayerButton:hover {
+    background-color: #2955aa; /* Darker shade on hover */
+}
+
+#calculateTeamsButton {
+    background-color: #3366cc;
+    border: none;
+    padding: 1rem 2rem; /* Increase the padding for the button size */
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Add margin to separate it from the "Add Player" button */
+}
+
+#calculateTeamsButton:hover {
+    background-color: #2955aa; /* Darker shade on hover */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 1rem;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Responsive Styles for smaller screens */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    #name, #point, #addPlayerButton {
+        font-size: 1.5rem;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        padding: 0.8rem;
+    }
+}
