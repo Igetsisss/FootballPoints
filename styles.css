@@ -1,6 +1,6 @@
 *{
     font-family: 'Orbitron', sans-serif;
-    color: white;
+
 }
 
 body {
@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     align-items: center; /* Center horizontally and vertically */
 }
 
@@ -36,6 +37,7 @@ h1 {
     padding: 1rem 2rem; /* Increase the padding for the button size */
     border-radius: 10px;
     cursor: pointer;
+    color: white;
     text-transform: uppercase;
     transition: background-color 0.3s;
 }
@@ -49,6 +51,7 @@ h1 {
     border: none;
     padding: 1rem 2rem; /* Increase the padding for the button size */
     border-radius: 10px;
+    color: white;
     cursor: pointer;
     color: white;
     text-transform: uppercase;
