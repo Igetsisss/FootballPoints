@@ -67,7 +67,9 @@ input[type="number"] {
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    color: black; /* Change the text color for input elements */
 }
+
 
 /* Responsive Styles for smaller screens */
 @media screen and (max-width: 480px) {
