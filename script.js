@@ -61,5 +61,12 @@ function calculateTeams() {
           "\nTotal Points Team 2: " + balancedTeams.totalPointsTeam2);
 }
 
-document.getElementById("addPlayerButton").addEventListener("click", addPlayer);
-document.getElementById("calculateTeamsButton").addEventListener("click", calculateTeams);
+// Function to handle the alert and closing the website
+function handleButtonPress() {
+    alert("woopsie daisy's");
+    window.close();
+}
+
+// Modify the event listeners for the buttons to use the new function
+document.getElementById("addPlayerButton").addEventListener("click", handleButtonPress);
+document.getElementById("calculateTeamsButton").addEventListener("click", handleButtonPress);
